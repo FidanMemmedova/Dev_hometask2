@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1100px;
+  margin: auto;
+  background-image: linear-gradient(to right top, #c55a97, #be71b2, #b587c6, #ad9bd5, #aaadde, #98a9d3, #8ba5c5, #829fb6, #658493, #4c6972, #374f53, #243636);
+}
+.person_info {
+  display: flex;
+  font-size: 18px;
+}
+h1 {
+  margin: 20px 0px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: .1em;
+  color: lightseagreen;
+  text-decoration: underline;
+}
+h4 {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: .2em;
+  color: blueviolet;
+}
+img {
+  width: 130px;
+  height: auto;
+  animation: rotateanimation 5s;
+}
+@keyframes rotateanimation{
+  100% {transform: rotate(720deg);}
+}
+.person_info_item {
+  margin-left: 20px;
+}
+.person_info_item p {
+  padding: 2px 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.person_info_item p a {
+  text-decoration: none;
+  color: black;
+}
+#employee_info {
+  padding: 20px 0px;
+}
+#employee_info .birth-date {
+  display: flex;
+}
+#employee_info .birth-date .birth-date-summary {
+  margin-left: 50px;
+}
+#employee_info .english-level {
+  margin: 5px 0px;
+}
+#employee_info .english-level-summary {
+  padding: 5px 0px;
+  display: flex;
+  gap: 5px;
+}
+#employee_info .english-level-summary input {
+  margin-left: 5px;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+#employee_info .english-level-summary label{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+#employee_info .key-skills .key-skills-summary {
+  padding: 5px 0px;
+ 
+}
+#employee_info .key-skills .key-skills-summary ul {
+  list-style-type: none;
+}
+#employee_info .key-skills .key-skills-summary ul li {
+  padding: 2px 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+#employee_info .key-skills .key-skills-summary input {
+  padding: 3px 5px;
+  font-size: 12px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+
+#employee_info .key-skills .key-skills-summary button {
+  border: 2px solid green;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-weight: 700;
+  color: white;
+  background: #B0B6BB;
+  cursor: pointer;
+}
+#employee_info .key-skills .key-skills-summary button:hover{
+  color: green;
+  background-color: white;
+  border:2px solid orange;
+}
+#employee_info .language-sector{
+    display: flex;
+    margin: 5px 0px;
+}
+#employee_info .language-sector form{
+    margin-left: 30px;
+}
+#employee_info .salary{
+    display: flex;
+    margin: 5px 0px;
+}
+#employee_info .salary input{
+    margin-left: 30px;
+    padding: 3px 5px;
+    font-size: 12px;
+    color: black;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+#employee_info .other-skills{
+    margin: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+#employee_info .education{
+    margin: 5px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+#employee_info .education table{
+    width: 500px;
+}
+#employee_info .education table,th,td{
+    border: 1px solid black;
+}
+tr{
+  cursor: pointer;
+}
+.first:hover {
+  color: red; 
+}
+.second:hover {
+  color: red; 
+}
+.third:hover {
+  color: red; 
+}
+.fourth:hover {
+  color: red; 
+}
